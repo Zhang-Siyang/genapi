@@ -24,7 +24,6 @@ type HttpClient struct {
 }
 
 func (c *HttpClient) SetConfig(config internal.Config) {
-	c.client = http.DefaultClient
 	c.config = config
 }
 
